@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Пой под гитару — индивидуальное обучение</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f5f5;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 48px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(180deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, .85)),
+        url('IMG_1794.JPG') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 96px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background: #ffb703;
+      color: #000;
+      font-weight: 700;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: .2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
+    }
+
+    /* LIST PROGRAM */
+    .program ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .program li {
+      background: #fff;
+      padding: 22px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, .05);
+    }
+
+    /* CTA */
+    .cta {
+      background: linear-gradient(180deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, .85)),
+        url('IMG_1799.JPG') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 64px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 36px 16px;
+      }
+
+      .hero {
+        padding: 72px 16px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Научу петь твои любимые песни под гитару</h1>
+      <p>Стань душой компании</p>
+      <a href="#cta" class="btn">Записаться на занятие</a>
+      <p style="margin-top:16px; font-size:14px; opacity:.85">
+        📍 Уютная студия «Пишем?» в центре города · Чернышевского, 35 
+      </p>
+    </div>
+  </section>
+
+  <!-- FORMAT -->
+  <section class="program">
+    <div class="container">
+      <h2>📌 Формат обучения</h2>
+      <ul>
+        <li>🎸 Занятия: <strong>1 – 2 раза в неделю</strong></li>
+        <li>⏱ Самостоятельная практика — <strong>от 30 минут в день</strong></li>
+        <li>📈 Первые результаты — <strong>через 2 месяца</strong></li>
+        <li>👤 Индивидуально, темп зависит от учащегося</li>
+        <li>📚 Базовый курс — <strong>10–12 занятий</strong></li>
+        <li>⭐ Оптимальный объём — <strong>12–16 занятий</strong></li>
+        <li>🔁 Отдельные темы — до 2 занятий</li>
+        <li>📝 Потребуется: гитара, тетрадь, ручка, желание</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- MAIN PROGRAM -->
+  <section class="program">
+    <div class="container">
+      <h2>✅ Основная программа (10–12 занятий)</h2>
+      <p style="max-width:700px; margin:0 auto 32px; color:#444;margin-left: 0">
+        Вся программа строится на песнях и мелодиях, которые нравятся именно тебе — никакой сухой теории
+      </p>
+      <ul>
+        <li><strong>1. Старт и знакомство</strong><br>Настройка гитары · Аппликатуры · Тональность · Диатоника</li>
+        <li><strong>2. Аккорды</strong><br>Схемы · Запись · Постановка рук</li>
+        <li><strong>3. Бой</strong><br>Основные виды · Чувство ритма</li>
+        <li><strong>4. Перебор</strong><br>Базовые схемы</li>
+        <li><strong>5–6. Пение под гитару</strong><br>Разбор любимой песни · Координация</li>
+        <li><strong>7. Барре</strong><br>Техника постановки</li>
+        <li><strong>8. Табулатуры</strong><br>Чтение и практика</li>
+        <li><strong>9–10. Разбор мелодии</strong><br>Исполнение и закрепление</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXTRA -->
+  <section>
+    <div class="container">
+      <h2>➕ Дополнительные темы</h2>
+      <div class="grid">
+        <div class="card">Замена струн</div>
+        <div class="card">Квинтовые аккорды</div>
+        <div class="card">Игра медиатором</div>
+        <div class="card">Каподастр</div>
+        <div class="card">Fingerstyle</div>
+        <div class="card">Щипковая техника (шансон)</div>
+        <div class="card">Разбор новых песен и мелодий</div>
+        <div class="card">Индивидуальная программа</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SONGWRITING -->
+  <section>
+    <div class="container">
+      <h2>✍️ Основы сочинения песен</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Структура песни</strong><br>
+          Куплет · Припев · Бридж
+        </div>
+        <div class="card">
+          <strong>Практика</strong><br>
+          Написание собственной песни
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="cta">
+    <div class="container">
+      <h2>Бесплатное пробное занятие</h2>
+      <p>Начнем разбирать твою любимую песню уже на первом уроке</p>
+      <a href="https://t.me/mihail_makeychev" target="_blank" class="btn">Записаться в Telegram</a>
+    </div>
+  </section>
+
+</body>
+
+</html>
